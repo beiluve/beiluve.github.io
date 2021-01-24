@@ -31,7 +31,7 @@ navigation:
   - text: 主页
     url: /
   - text: 标签
-    url: /tags/
+    url: /tags
 
 # The shortname for your Disqus site to enable comments.
 # disqus: justgoodthemes
