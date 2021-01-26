@@ -10,21 +10,13 @@ tags: [Jekyll, Github-Pages]
 
 本文主要介绍如何在Ubuntu系统上安装配置Jekyll环境，用于在本地构建和调试你的Github-Pages项目。
 
-系统环境：
-```txt
-Distributor ID:	Ubuntu
-Description:	Ubuntu 20.04.1 LTS
-Release:	20.04
-Codename:	focal
-```
-
 <!--more-->
 
 ## 预安装
 
 Jekyll依赖Ruby环境，在安装Jekyll之前要先安装好Ruby和RubyGems。
 
-```sh
+```shell
 # 1.安装ruby
 $ sudo apt install ruby-full ruby-bundler
 
@@ -50,7 +42,7 @@ https://gems.ruby-china.com
 
 安装Jekyll的步骤很简单：
 
-```sh
+```shell
 # 使用gem安装jekyll
 $ sudo gem install jekyll
 
@@ -67,7 +59,7 @@ jekyll 4.2.0
 
 1. 开始构建
 
-    ```sh
+    ```shell
     # 修改bundle镜像配置，这样就不用修改的Gemfile中的source配置
     $ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 
@@ -78,4 +70,4 @@ jekyll 4.2.0
     $ jekyll serve
     ```
 
-1. 本地访问：`http://127.0.0.1:4000`
+1. 本地默认访问地址：`http://127.0.0.1:4000`
