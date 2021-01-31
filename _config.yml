@@ -57,6 +57,7 @@ paginate_path: '/page:num/'
 permalink: /:title
 
 # Conversion
+highlighter: rouge
 markdown: kramdown
 
 # Sass
