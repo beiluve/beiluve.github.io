@@ -60,7 +60,7 @@ jekyll 4.2.0
 1. 开始构建
 
     ```shell
-    # 修改bundle镜像配置，这样就不用修改的Gemfile中的source配置
+    # 修改bundle镜像配置，这样就不用修改Gemfile中的source配置
     $ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 
     # 先使用bundle安装Gemfile配置中的插件
