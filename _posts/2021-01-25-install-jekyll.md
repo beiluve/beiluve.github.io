@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jekyll安装与Github-Pages构建
+title: Jekyll安装与本地构建
 description: Jekyll
 date: 2021-01-25
-tags: [Jekyll, Github-Pages]
+tags: [Jekyll]
 ---
 
 我们可以通过Github提供的Github-Pages很方便地搭建个人博客，而Github-Pages默认的构建工具是Jekyll。
@@ -51,7 +51,7 @@ $ jekyll -v
 jekyll 4.2.0
 ```
 
-至此，Jekyll就已经安装好了，你可以用它在本地构建你的Github-Pages项目。
+至此，Jekyll就已经安装好了。
 
 ## 在本地构建Github-Pages项目
 
