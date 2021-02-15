@@ -23,9 +23,6 @@ url: "https://beiluve.github.io"
 # Favicon
 favicon: images/favicon.png
 
-# Google Analytics id, e.g. "UA-NNNNNNNN-N"
-# google_analytics: ""
-
 # baidu analytics
 baidu_analytics: "7fc3b6ec6eb1858978dbb80b2d205c50"
 
