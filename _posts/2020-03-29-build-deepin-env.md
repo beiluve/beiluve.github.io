@@ -29,8 +29,11 @@ $ ssh-keygen -t rsa
 ### 安装OpenJDK8
 
 ```bash
-# 安装
+# 安装openjdk8
 $ sudo apt install openjdk-8-jdk
+
+# 安装openjdk8源码
+$ sudo apt install openjdk-8-source
 
 # 验证安装
 $ java -version
@@ -196,7 +199,11 @@ $ mv gitbook/ gitbook-*.css ~/.config/Typora/themes
 
 ### Intellij IDEA
 
-配置JDK源码
+- 配置maven
+- 配置git
+- 配置Encoding
+- 配置Live Templates
+- 安装插件
 
 ## 问题及处理办法
 
